@@ -4,8 +4,9 @@ import { useNavigate } from 'react-router-dom';
 const Form = () => {
   const navigate = useNavigate();
   return (
-    <div className="bg-[#f8f8f8]">
+    <div className="container bg-[#f8f8f8]">
       <div className="w-full h-24 bg-white pt-12 px-2 mb-6">
+        {/* <div className="w-full h-12 bg-white px-2 mb-12 pt-14 "> */}
         <div
           onClick={() => navigate('/dashboard')}
           className="inline-block w-10 h-10 bg-slate-100 rounded-lg"
@@ -14,11 +15,11 @@ const Form = () => {
         </div>
         <h2 className="inline-block ml-[25%] font-semibold">Jane D Modric</h2>
       </div>
-      <div className="h-[90%] w-[90%] bg-white m-auto rounded-lg p-4 px-6">
+      <div className="mx-4 bg-white m-auto rounded-lg p-4 px-6 overflow-scroll h-[600px] ">
         <h2 className="font-semibold">Jane D Modric</h2>
         <i class="fa-solid fa-location-dot text-sm" />
         <p className="inline m-2 text-sm">Arena Jeruscica</p>
-        <form className="mt-4 flex flex-col gap-5 h-[60vh] overflow-scroll">
+        <form className="mt-4 flex flex-col gap-5 ">
           <div class="relative ">
             <input
               type="date"

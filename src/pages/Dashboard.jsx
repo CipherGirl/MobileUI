@@ -7,8 +7,8 @@ const Dashboard = () => {
   console.log(data);
 
   return (
-    <div className="h-full bg-[#f8f8fd] overflow-hidden">
-      <div class="h-[40vh] min-h-[35vh] md:h-[30vh] bg-fuchsia-500 pt-14 flex flex-col gap-2 pl-3">
+    <div className="container bg-[#f8f8fd]">
+      <div class="h-80 bg-fuchsia-500 pt-14 flex flex-col gap-2 pl-3">
         <div className="flex gap-4 items-center">
           <img
             alt="name"
@@ -27,7 +27,7 @@ const Dashboard = () => {
             return (
               <div
                 id={index}
-                className={`flex flex-col w-[18vh] h-[15vh] m-2 p-4 relative rounded-md cursor-pointer ${
+                className={`flex flex-col w-40 h-32 m-2 p-4 relative rounded-md cursor-pointer ${
                   index ? 'bg-[#bfccff]' : 'bg-[#d1c8ff]'
                 }`}
               >
@@ -46,7 +46,7 @@ const Dashboard = () => {
           })}
         </ScrollMenu>
       </div>
-      <div class="max-h-[55vh] overflow-scroll pl-4 rounded-t-3xl bg-white mt-[-25px]">
+      <div class="h-[450px] overflow-scroll pl-4 rounded-t-3xl bg-white mt-[-25px]">
         <div className="pt-6">
           <div>
             <h2 className="text-lg font-semibold h-6">Area</h2>

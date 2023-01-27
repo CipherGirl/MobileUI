@@ -6,10 +6,11 @@
 .App {
   display: flex;
   height: 100vh;
-  width: auto;
+  min-width: 375px;
   flex-direction: column;
 }
-main {
+
+.container {
   flex: 1;
 }
 
@@ -30,12 +31,21 @@ nav {
 }
 
 @media only screen and (min-width: 600px) {
-  .App {
+  /* .App {
     margin: auto;
     margin-top: 20px;
     aspect-ratio: 9 / 19;
     width: 400px;
     height: auto;
+    border: 2px solid black;
+  } */
+  .App {
+    display: flex;
+    height: 800px;
+    width: 375px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
     border: 2px solid black;
   }
 }

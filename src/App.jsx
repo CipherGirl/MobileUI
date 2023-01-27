@@ -15,13 +15,11 @@ function App() {
   return (
     <div className="App font-montserrat relative">
       <TopPanel />
-      <main>
-        <Routes>
-          <Route path="/" element={<Login />}></Route>
-          <Route path="/dashboard" element={<Dashboard />}></Route>
-          <Route path="/form" element={<Form />}></Route>
-        </Routes>
-      </main>
+      <Routes>
+        <Route path="/" element={<Login />}></Route>
+        <Route path="/dashboard" element={<Dashboard />}></Route>
+        <Route path="/form" element={<Form />}></Route>
+      </Routes>
       {location.pathname !== '/' && <Navigation />}
     </div>
   );

@@ -5,7 +5,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="h-full pt-16 flex flex-col items-center justify-between">
+    <div className="container  pt-16 flex flex-col items-center justify-between">
       <div class="max-w-max rounded-full ml-auto mr-4 bg-gray-200 p-1 flex  text-xs">
         <div>
           <input type="radio" name="language" id="cro" class="peer hidden" />
@@ -37,13 +37,13 @@ const Login = () => {
         IT <span className="text-primary">CReation</span>
       </h1>
       <h2 className="text-2xl font-bold">HELLO SIGN IN</h2>
-      <div>
+      <div className="w-80">
         <p className="mb-2 text-sm">User ID</p>
         <div class="relative">
           <input
             type="text"
             id="empUID"
-            class="block px-2 pb-1.5 pt-3 w-[22rem] border-2 text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300  dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+            class="block px-2 pb-1.5 pt-3 w-[20rem] border-2 text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300  dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
           />
           <i className="fa-solid fa-circle-user absolute top-1/3 right-3"></i>
@@ -59,7 +59,7 @@ const Login = () => {
           <input
             type="password"
             id="password"
-            class="block px-2 pb-1.5 pt-3 w-[22rem] border-2 text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300  dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+            class="block px-2 pb-1.5 pt-3 w-[20rem] border-2 text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300  dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
           />
           <i className="fa-regular fa-eye absolute top-1/3 right-3"></i>
@@ -76,7 +76,7 @@ const Login = () => {
       </div>
       <button
         onClick={() => navigate('/dashboard')}
-        className="w-[22rem] bg-primary rounded-md py-4 mb-10 font-semibold text-white"
+        className="w-[20rem] bg-primary rounded-md py-4 mb-10 font-semibold text-white"
       >
         SIGN IN
       </button>
