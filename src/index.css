@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  display: flex;
+  height: 100vh;
+  width: auto;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+
+.nav-add {
+  background: transparent;
+  border-top-right-radius: 26px;
+  box-shadow: 2px -3px #c4c4c8;
+}
+
+.nav-add:nth-of-type(2) {
+  background: transparent;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 0px;
+  box-shadow: -2px -3px#c4c4c8;
+}
+nav {
+  box-shadow: 0 -5px 20px -5px rgba(51, 51, 51, 0.32);
+}
+
+@media only screen and (min-width: 600px) {
+  .App {
+    margin: auto;
+    margin-top: 20px;
+    aspect-ratio: 9 / 19;
+    width: 400px;
+    height: auto;
+    border: 2px solid black;
+  }
+}
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

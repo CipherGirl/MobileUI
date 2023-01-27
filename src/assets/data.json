@@ -1,0 +1,31 @@
+[
+  {
+    "features": [
+      { "details": "Get in touch today", "pricing": 10 },
+      { "details": "Opprtunities", "pricing": 5 },
+      { "details": "Mogućnosti", "pricing": 10 }
+    ],
+    "area": [
+      { "name": "Konale Dubrovik", "percentage": "70" },
+      { "name": "Omis, Town", "percentage": "90" },
+      { "name": "Konale Dubrovik", "percentage": "70" }
+    ],
+    "agenda": [
+      {
+        "title": "Elegant Mansion, Konale Dubrovik",
+        "time": "10.00 am - 11.00 am",
+        "priority": "high"
+      },
+      {
+        "title": "Ultra Presitigious Villa, Omis",
+        "time": "11.30 am - 12.45 pm",
+        "priority": "high"
+      },
+      {
+        "title": "Stone Rustical Mansion, Brac Island",
+        "time": "1.00 pm - 2.45 pm",
+        "priority": "normal"
+      }
+    ]
+  }
+]
