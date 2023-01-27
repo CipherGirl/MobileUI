@@ -1,6 +1,5 @@
 import React from 'react';
 import { ScrollMenu } from 'react-horizontal-scrolling-menu';
-import useDrag from '../components/useDrag';
 import data from '../assets/data.json';
 import AreaCard from '../components/AreaCard';
 
